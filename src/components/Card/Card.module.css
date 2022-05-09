@@ -1,0 +1,47 @@
+.cardBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid black;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.cardNumber {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardNumber input {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ccc;
+    font-size: 1.2rem;
+    width: 23%;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    color: #555;
+    font-family: monospace;
+    padding: 0.5rem 0;
+    transition: all 0.3s;
+}
+
+.cardNumber input:focus {
+    border-color: lightseagreen;
+}
+
+.cardNumber input::placeholder {
+    color: #ccc;
+}
+
+.cardNumber input::-webkit-outer-spin-button,
+.cardNumber input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
